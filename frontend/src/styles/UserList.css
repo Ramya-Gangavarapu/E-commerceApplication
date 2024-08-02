@@ -1,0 +1,61 @@
+/* src/styles/UserList.css */
+
+.user-list {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .user-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .user-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  .user-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .user-list {
+      padding: 15px;
+    }
+  
+    .user-item {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .user-list {
+      padding: 10px;
+    }
+  
+    .user-item {
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.home-page {
+    padding-top: 60px; /* To prevent content from being hidden behind the navbar */
+    text-align: center;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-page a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #007bff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-page a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
